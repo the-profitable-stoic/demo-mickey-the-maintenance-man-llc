@@ -1,0 +1,600 @@
+{
+  "business": {
+    "name": "Mickey \"the Maintenance Man\" LLC",
+    "phone": "+12062457455",
+    "category": "handyman service",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-mountain-bold",
+      "categoryGroup": "roofing",
+      "name": "Mountain Bold",
+      "recipeFile": "roofing/mountain-bold.astro",
+      "colors": {
+        "primary": "#1A3A52",
+        "primaryDark": "#0F2436",
+        "primaryLight": "#C8DDE8",
+        "secondary": "#2D5F7C",
+        "accent": "#FFC600",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1A3A52",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Seattle's Trusted Handyman",
+      "heroSubline": "Reliable repairs and expert maintenance for your home. Serving Seattle and surrounding areas with pride.",
+      "aboutTitle": "Your Seattle Home, Our Priority",
+      "aboutText": [
+        "Mickey 'the Maintenance Man' LLC started with a simple goal: provide honest, reliable handyman services to our Seattle neighbors. We saw a need for skilled professionals who treat every home with the same care and attention they would their own.",
+        "Our approach is straightforward: clear communication, quality workmanship, and a commitment to exceeding expectations. We value integrity and transparency in every project, big or small, ensuring you're always informed and satisfied.",
+        "We're proud to be a part of the Seattle community. From supporting local initiatives to sourcing materials responsibly, we're dedicated to making a positive impact on the city we call home. We understand the unique challenges Seattle homes face, and we're here to help."
+      ],
+      "valueProps": [
+        {
+          "title": "Expert Craftsmanship",
+          "description": "Skilled professionals delivering high-quality repairs and improvements."
+        },
+        {
+          "title": "Reliable & On-Time",
+          "description": "We respect your time and arrive when we say we will, ready to work."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "No hidden fees or surprises. Clear, upfront estimates you can trust."
+        },
+        {
+          "title": "Locally Focused",
+          "description": "Dedicated to serving the Seattle area with tailored solutions for local homes."
+        }
+      ],
+      "ctaHeadline": "Ready to Get Started?",
+      "ctaSubline": "Contact us today for a free estimate and experience the Mickey 'the Maintenance Man' difference. Let's get your project done right."
+    },
+    "services": [
+      {
+        "slug": "roof-moss-removal",
+        "name": "Roof Moss Removal",
+        "shortDescription": "Protect your Seattle roof from moss and water damage.",
+        "description": "Seattle's constant moisture creates the perfect breeding ground for moss, lichen, and algae on roofs. This growth doesn't just look unsightly; it traps moisture, leads to wood rot, and shortens the lifespan of your roof. Mickey 'the Maintenance Man' LLC offers professional roof moss removal services to protect your investment.\n\nOur experienced team uses safe and effective techniques to remove moss without damaging your roofing materials. We start with a thorough assessment of your roof's condition, identifying areas of concern and tailoring our approach accordingly. We use specialized tools and eco-friendly treatments to gently lift and remove moss, algae, and debris.\n\nOnce the moss is removed, we apply a preventative treatment to inhibit future growth. We also clean your gutters and downspouts to ensure proper drainage, preventing water buildup that can exacerbate moss growth. Regular roof moss removal is essential for maintaining the integrity of your Seattle home.",
+        "process": [
+          "Step 1: Roof inspection to assess moss growth and roof condition.",
+          "Step 2: Gentle removal of moss and debris using specialized tools.",
+          "Step 3: Application of environmentally friendly moss inhibitor.",
+          "Step 4: Gutter cleaning to ensure proper drainage and prevent future growth."
+        ],
+        "benefits": [
+          "Extends the life of your roof",
+          "Prevents water damage and wood rot",
+          "Improves curb appeal",
+          "Protects your home investment"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my roof cleaned in Seattle?",
+            "answer": "In Seattle's wet climate, we recommend having your roof inspected and cleaned every 1-2 years to prevent moss buildup and potential damage."
+          },
+          {
+            "question": "Will roof moss removal damage my shingles?",
+            "answer": "Our team uses gentle, proven techniques and eco-friendly treatments to remove moss without damaging your shingles. We prioritize the integrity of your roof."
+          },
+          {
+            "question": "Do you offer any guarantees on your roof moss removal service?",
+            "answer": "Yes, we offer a satisfaction guarantee on our roof moss removal service. We stand behind the quality of our work and ensure you're happy with the results."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-cleaning",
+        "name": "Gutter Cleaning & Repair",
+        "shortDescription": "Keep your gutters flowing freely with our expert cleaning and repair services.",
+        "description": "Clogged gutters are a common problem in Seattle, WA. With our frequent rainfall, leaves, needles, and debris quickly accumulate, causing water to overflow and potentially damage your home's foundation, siding, and landscaping. Mickey 'the Maintenance Man' LLC provides comprehensive gutter cleaning and repair services to keep your system functioning properly.\n\nOur experienced technicians will remove all debris from your gutters and downspouts, ensuring proper water flow. We'll also inspect your gutters for any signs of damage, such as leaks, sagging, or rust. If necessary, we can perform repairs to restore your gutters to optimal condition. We handle everything from minor patching to complete gutter replacement.\n\nRegular gutter maintenance is essential for protecting your Seattle home from water damage. Don't wait until you have a problem – schedule your gutter cleaning and repair service with Mickey 'the Maintenance Man' LLC today.",
+        "process": [
+          "Step 1: Removal of leaves, debris, and other obstructions from gutters.",
+          "Step 2: Flushing of downspouts to ensure clear water flow.",
+          "Step 3: Inspection of gutters for damage, leaks, or sagging.",
+          "Step 4: Repair or replacement of damaged gutter sections as needed."
+        ],
+        "benefits": [
+          "Prevents water damage to your home's foundation",
+          "Protects siding and landscaping from water overflow",
+          "Extends the life of your gutters",
+          "Reduces the risk of ice dams in winter"
+        ],
+        "faq": [
+          {
+            "question": "How often should I clean my gutters in Seattle?",
+            "answer": "We recommend cleaning your gutters at least twice a year in Seattle, once in the spring and again in the fall, to remove accumulated leaves and debris."
+          },
+          {
+            "question": "What are the signs of damaged gutters?",
+            "answer": "Signs of damaged gutters include leaks, sagging, rust, overflowing water, and water stains on your home's siding."
+          },
+          {
+            "question": "Do you offer gutter guard installation?",
+            "answer": "Yes, we offer gutter guard installation to help prevent debris from entering your gutters and reducing the need for frequent cleaning."
+          }
+        ]
+      },
+      {
+        "slug": "dryrot-repair",
+        "name": "Dry Rot Repair",
+        "shortDescription": "Combat Seattle's dampness with our expert dry rot repair services.",
+        "description": "Dry rot is a common problem in Seattle's wet climate. This wood-decaying fungus thrives in damp environments and can cause significant damage to your home's structure. Mickey 'the Maintenance Man' LLC specializes in dry rot repair, helping you protect your investment and maintain the integrity of your property.\n\nOur experienced carpenters will assess the extent of the damage and develop a comprehensive repair plan. We'll remove the affected wood, treat the surrounding area to prevent further spread, and replace the damaged sections with high-quality, weather-resistant materials. We pay close attention to detail, ensuring a seamless repair that blends seamlessly with your home's existing architecture.\n\nDon't let dry rot compromise the safety and value of your Seattle home. Contact Mickey 'the Maintenance Man' LLC for expert dry rot repair services.",
+        "process": [
+          "Step 1: Thorough inspection to identify and assess dry rot damage.",
+          "Step 2: Removal of affected wood and treatment of surrounding areas.",
+          "Step 3: Precise cutting and installation of new, treated lumber.",
+          "Step 4: Sealing and painting to match existing finishes and prevent future moisture intrusion."
+        ],
+        "benefits": [
+          "Prevents further structural damage",
+          "Restores the integrity of your home",
+          "Improves safety and stability",
+          "Increases property value"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of dry rot?",
+            "answer": "Signs of dry rot include soft, crumbly wood, a musty odor, and visible fungal growth. The wood may also appear darker or discolored."
+          },
+          {
+            "question": "How can I prevent dry rot?",
+            "answer": "Prevent dry rot by ensuring proper ventilation, addressing leaks promptly, and using treated lumber for exterior projects."
+          },
+          {
+            "question": "Is dry rot repair covered by homeowner's insurance?",
+            "answer": "In some cases, dry rot repair may be covered by homeowner's insurance, depending on the cause of the damage and the terms of your policy. We recommend checking with your insurance provider."
+          }
+        ]
+      },
+      {
+        "slug": "deck-repair-staining",
+        "name": "Deck Repair & Staining",
+        "shortDescription": "Restore and protect your Seattle deck with our repair and staining services.",
+        "description": "Seattle decks take a beating from the elements. Rain, sun, and temperature fluctuations can cause wood to warp, crack, and fade. Mickey 'the Maintenance Man' LLC offers comprehensive deck repair and staining services to keep your outdoor space looking its best.\n\nOur skilled carpenters can repair damaged deck boards, railings, and stairs. We use high-quality materials and proven techniques to ensure a durable and lasting repair. We also offer power washing and staining services to revitalize your deck's appearance and protect it from the elements.\n\nWhether you need a minor repair or a complete deck restoration, Mickey 'the Maintenance Man' LLC is here to help. We'll work with you to create a beautiful and functional outdoor space that you can enjoy for years to come.",
+        "process": [
+          "Step 1: Thorough inspection of the deck to identify damaged or worn areas.",
+          "Step 2: Repair or replacement of damaged boards, railings, and stairs.",
+          "Step 3: Power washing to remove dirt, mildew, and old stain.",
+          "Step 4: Application of high-quality stain or sealant to protect the wood."
+        ],
+        "benefits": [
+          "Extends the life of your deck",
+          "Enhances the beauty of your outdoor space",
+          "Increases safety and stability",
+          "Protects against weather damage"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain my deck in Seattle?",
+            "answer": "We recommend staining your deck every 2-3 years in Seattle to protect it from the elements and maintain its appearance."
+          },
+          {
+            "question": "What type of stain is best for a Seattle deck?",
+            "answer": "We recommend using a high-quality, oil-based stain or sealant that is specifically designed for exterior use and can withstand Seattle's wet climate."
+          },
+          {
+            "question": "Can you repair a deck that is severely damaged?",
+            "answer": "We can assess the extent of the damage and determine the best course of action. In some cases, a complete deck replacement may be necessary."
+          }
+        ]
+      },
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your Seattle home with our professional interior painting services.",
+        "description": "A fresh coat of paint can do wonders for your Seattle home. Whether you're looking to update a single room or repaint your entire interior, Mickey 'the Maintenance Man' LLC provides professional interior painting services to transform your living space.\n\nOur experienced painters will prepare your walls properly, ensuring a smooth and flawless finish. We use high-quality paints and proven techniques to deliver exceptional results. We also offer color consultation services to help you choose the perfect colors for your home.\n\nFrom prep work to cleanup, we handle every detail with care and precision. We'll protect your furniture and belongings and leave your home looking beautiful and refreshed.",
+        "process": [
+          "Step 1: Thorough preparation of surfaces, including cleaning, sanding, and priming.",
+          "Step 2: Careful application of high-quality paint in the desired colors.",
+          "Step 3: Multiple coats for even coverage and lasting durability.",
+          "Step 4: Detailed cleanup and restoration of the work area."
+        ],
+        "benefits": [
+          "Enhances the beauty and value of your home",
+          "Creates a fresh and inviting atmosphere",
+          "Protects walls from wear and tear",
+          "Improves indoor air quality"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to paint a room?",
+            "answer": "The time it takes to paint a room depends on the size of the room, the condition of the walls, and the number of coats required. We'll provide you with an estimated timeline before we begin the project."
+          },
+          {
+            "question": "Do I need to move my furniture before you start painting?",
+            "answer": "We recommend moving any valuable or fragile items before we start painting. We'll cover and protect the remaining furniture to prevent any damage."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use high-quality, low-VOC paints that are durable, long-lasting, and environmentally friendly."
+          }
+        ]
+      },
+      {
+        "slug": "fence-repair",
+        "name": "Fence Repair",
+        "shortDescription": "Secure your property with our reliable fence repair services in Seattle.",
+        "description": "Seattle's weather can be hard on fences. Wind, rain, and moisture can cause wood to rot, warp, and break. Mickey 'the Maintenance Man' LLC offers expert fence repair services to keep your fence strong and secure.\n\nOur skilled technicians can repair damaged posts, panels, and gates. We use high-quality materials and proven techniques to ensure a durable and lasting repair. We also offer fence staining and painting services to protect your fence from the elements and enhance its appearance.\n\nWhether you need a minor repair or a complete fence restoration, Mickey 'the Maintenance Man' LLC is here to help. We'll work with you to create a fence that is both functional and aesthetically pleasing.",
+        "process": [
+          "Step 1: Inspection of the fence to identify damaged or weakened areas.",
+          "Step 2: Repair or replacement of damaged posts, panels, and gates.",
+          "Step 3: Reinforcement of weak points and structural support.",
+          "Step 4: Staining or painting to protect the wood and enhance appearance."
+        ],
+        "benefits": [
+          "Secures your property and provides privacy",
+          "Enhances the curb appeal of your home",
+          "Extends the life of your fence",
+          "Increases property value"
+        ],
+        "faq": [
+          {
+            "question": "How long does fence repair usually take?",
+            "answer": "The duration of fence repair depends on the extent of the damage. Minor repairs can often be completed in a day, while more extensive repairs may take longer."
+          },
+          {
+            "question": "What are the common signs of fence damage?",
+            "answer": "Common signs of fence damage include leaning posts, broken panels, rotting wood, and loose gates."
+          },
+          {
+            "question": "Can you match the existing style of my fence?",
+            "answer": "Yes, we can match the existing style of your fence to ensure a seamless repair. We offer a wide variety of materials and styles to choose from."
+          }
+        ]
+      },
+      {
+        "slug": "minor-plumbing-repairs",
+        "name": "Minor Plumbing Repairs",
+        "shortDescription": "Quick and reliable solutions for your plumbing issues.",
+        "description": "Leaky faucets, running toilets, and clogged drains can be frustrating and wasteful. Mickey 'the Maintenance Man' LLC offers prompt and reliable minor plumbing repair services to address these common issues in your Seattle home.\n\nOur experienced plumbers can quickly diagnose and repair a variety of plumbing problems. We use quality parts and proven techniques to ensure a lasting repair. We can handle everything from replacing a faucet washer to unclogging a drain.\n\nDon't let minor plumbing problems turn into major headaches. Contact Mickey 'the Maintenance Man' LLC for fast and affordable plumbing repair services.",
+        "process": [
+          "Step 1: Diagnosis of the plumbing issue.",
+          "Step 2: Repair or replacement of faulty components.",
+          "Step 3: Testing to ensure proper function.",
+          "Step 4: Cleanup of the work area."
+        ],
+        "benefits": [
+          "Prevents water damage",
+          "Saves water and reduces utility bills",
+          "Restores proper plumbing function",
+          "Avoids costly future repairs"
+        ],
+        "faq": [
+          {
+            "question": "How much does a typical plumbing repair cost?",
+            "answer": "The cost of plumbing repair varies depending on the nature and extent of the problem. We provide upfront estimates before starting any work."
+          },
+          {
+            "question": "What if it's an emergency plumbing issue?",
+            "answer": "We prioritize emergency plumbing repairs. Call us immediately, and we'll do our best to assist you promptly."
+          },
+          {
+            "question": "Are your plumbers licensed and insured?",
+            "answer": "Yes, our plumbers are licensed, insured, and experienced in handling a wide range of plumbing repairs."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC is proud to offer handyman services to the residents of Bellevue, Washington. Known for its upscale neighborhoods and a significant number of homes built between the 1980s and 2000s, Bellevue presents unique maintenance needs. From addressing wear and tear in established properties to assisting with updates and renovations, our team is equipped to handle a wide range of projects.\n\nBellevue's mild, wet winters can lead to issues like water damage and mold growth. We provide services such as gutter cleaning, roof repair, and weatherproofing to protect your home from the elements. Whether you're looking to maintain your property's value or enhance its comfort, Mickey \"the Maintenance Man\" LLC is here to help.",
+        "localContext": "We understand the high standards of Bellevue homeowners and tailor our services to meet your specific needs.",
+        "nearbyAreas": [
+          "Redmond",
+          "Kirkland",
+          "Seattle"
+        ]
+      },
+      {
+        "city": "Redmond",
+        "slug": "redmond-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC serves the Redmond, Washington area, providing reliable handyman services to homeowners and businesses alike. With a strong connection to the Microsoft campus, Redmond features a diverse range of housing options, from modern apartments to family homes. We are experienced in addressing the unique maintenance challenges that come with each type of property.\n\nThe wet Redmond climate can take a toll on homes. We offer services to combat moisture and prevent damage, including siding repair, window sealing, and drainage solutions. Whether you need help with a small repair or a larger renovation project, Mickey \"the Maintenance Man\" LLC is dedicated to providing quality workmanship and exceptional customer service.",
+        "localContext": "We are familiar with the specific needs of Redmond's residents and businesses, offering tailored solutions to ensure your property is well-maintained.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Kirkland",
+          "Sammamish"
+        ]
+      },
+      {
+        "city": "Kirkland",
+        "slug": "kirkland-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC is pleased to offer our handyman services to the vibrant community of Kirkland, Washington. Known for its beautiful waterfront homes along Lake Washington, Kirkland presents unique maintenance considerations. We have experience working on properties of all sizes and styles, ensuring that your home remains in top condition.\n\nLiving near the water requires special attention to protect your home from the elements. We offer services such as deck repair, dock maintenance, and seawall inspections. Our team is equipped to handle any handyman project, big or small. We are committed to providing reliable, professional service to the residents of Kirkland.",
+        "localContext": "We understand the importance of maintaining waterfront properties in Kirkland and offer specialized services to protect your investment.",
+        "nearbyAreas": [
+          "Redmond",
+          "Bellevue",
+          "Woodinville"
+        ]
+      },
+      {
+        "city": "Tacoma",
+        "slug": "tacoma-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC extends its handyman services to the historic city of Tacoma, Washington. With a rich architectural history, particularly in areas like the Stadium District with its charming 1900s-20s Craftsman homes, Tacoma presents unique maintenance needs. We are experienced in preserving the character of older homes while ensuring they meet modern standards of safety and comfort.\n\nThe damp Tacoma climate can be particularly harsh on older homes. We offer services such as foundation repair, siding replacement, and window restoration to protect your investment. Whether you own a classic Craftsman or a more modern property, Mickey \"the Maintenance Man\" LLC is here to help you maintain and improve your home.",
+        "localContext": "We appreciate the unique architectural heritage of Tacoma and are committed to providing sensitive and effective handyman services to preserve its charm.",
+        "nearbyAreas": [
+          "Seattle",
+          "Federal Way",
+          "Puyallup"
+        ]
+      },
+      {
+        "city": "Bothell",
+        "slug": "bothell-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC proudly serves the community of Bothell, Washington, offering a wide range of handyman services to homeowners and businesses. Characterized by its suburban developments from the 1980s and 90s, Bothell features a variety of housing styles, each with its own unique maintenance requirements. We are equipped to handle any project, from minor repairs to major renovations.\n\nThe wet Bothell climate can lead to issues like roof leaks, water damage, and mold growth. We offer services such as gutter cleaning, roof repair, and weatherproofing to protect your home from the elements. Whether you're looking to update your kitchen, repair a leaky faucet, or simply improve the curb appeal of your home, Mickey \"the Maintenance Man\" LLC is here to help.",
+        "localContext": "We understand the needs of Bothell homeowners and are committed to providing reliable, affordable handyman services to keep your property in top condition.",
+        "nearbyAreas": [
+          "Woodinville",
+          "Mill Creek",
+          "Kenmore"
+        ]
+      },
+      {
+        "city": "Seattle",
+        "slug": "seattle-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC is delighted to provide comprehensive handyman services throughout Seattle, Washington. From historic neighborhoods with aging infrastructure to modern condos, Seattle's diverse housing stock demands a versatile and experienced handyman. We handle everything from minor repairs to full renovations.\n\nSeattle's rainy climate can accelerate wear and tear on homes. We offer services like roof repair, gutter cleaning, and weather stripping to protect your home from the elements. Whether you need help with plumbing, electrical work, carpentry, or painting, Mickey \"the Maintenance Man\" LLC is your one-stop shop for all your handyman needs.",
+        "localContext": "Understanding Seattle's unique urban environment, we provide efficient and reliable handyman services to meet the needs of city dwellers.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Shoreline",
+          "Burien"
+        ]
+      },
+      {
+        "city": "Renton",
+        "slug": "renton-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC is proud to serve the residents and businesses of Renton, Washington, offering a comprehensive range of handyman services. Renton's diverse housing market, ranging from established neighborhoods to newer developments, presents a variety of maintenance needs. We are equipped to handle any project, big or small.\n\nWith its proximity to the Cedar River and Lake Washington, Renton can experience increased humidity and potential for water damage. We offer services such as waterproofing, mold remediation, and drainage solutions to protect your property from the elements. Whether you're looking to upgrade your kitchen, repair a leaky roof, or simply improve the overall condition of your home, Mickey \"the Maintenance Man\" LLC is here to help.",
+        "localContext": "We understand the specific challenges faced by Renton homeowners and are committed to providing reliable, affordable handyman services to keep your property in top condition.",
+        "nearbyAreas": [
+          "Kent",
+          "Seattle",
+          "Newcastle"
+        ]
+      },
+      {
+        "city": "Sammamish",
+        "slug": "sammamish-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC is pleased to offer handyman services to the growing community of Sammamish, Washington. Known for its family-friendly atmosphere and newer residential developments, Sammamish presents unique maintenance requirements. We are experienced in addressing the needs of modern homes and ensuring they remain in excellent condition.\n\nThe Sammamish climate, with its wet winters and mild summers, can impact homes in various ways. We offer services such as siding repair, deck maintenance, and landscaping to protect your property from the elements. Whether you're looking to add value to your home or simply maintain its beauty, Mickey \"the Maintenance Man\" LLC is here to assist you.",
+        "localContext": "We understand the needs of Sammamish families and are committed to providing reliable, professional handyman services that fit your lifestyle.",
+        "nearbyAreas": [
+          "Redmond",
+          "Issaquah",
+          "North Bend"
+        ]
+      },
+      {
+        "city": "Shoreline",
+        "slug": "shoreline-wa",
+        "state": "WA",
+        "content": "Mickey \"the Maintenance Man\" LLC proudly extends its handyman services to the community of Shoreline, Washington. Shoreline features a mix of established neighborhoods and newer developments, creating diverse maintenance needs. We are equipped to handle any project, from minor repairs to major renovations.\n\nThe Puget Sound climate can be tough on homes, leading to issues like moss growth, water damage, and wood rot. We offer services such as roof cleaning, gutter maintenance, and siding repair to protect your property. Whether you're looking to update your kitchen, fix a leaky faucet, or simply improve your home's curb appeal, Mickey \"the Maintenance Man\" LLC is here to help.",
+        "localContext": "We understand the needs of Shoreline homeowners and are dedicated to providing reliable, affordable handyman services to keep your property in top condition.",
+        "nearbyAreas": [
+          "Seattle",
+          "Edmonds",
+          "Lake Forest Park"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Gutter Cleaning",
+        "text": "Mickey's team did a fantastic job cleaning our gutters. They were overflowing with leaves and debris, and now they're flowing perfectly. They were prompt, professional, and left no mess behind!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David L.",
+        "rating": 4,
+        "service": "Dry Rot Repair",
+        "text": "We had some dry rot damage around our window frames, and Mickey's crew repaired it quickly and efficiently. The repair looks great, and we're confident it will last. Appreciated their attention to detail.",
+        "date": "2024-11-02"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 5,
+        "service": "Deck Staining",
+        "text": "Our deck was looking worn and faded. Mickey's team power washed and stained it, and it looks brand new. They were very careful and did a beautiful job. Highly recommend!",
+        "date": "2025-05-20"
+      },
+      {
+        "name": "John S.",
+        "rating": 5,
+        "service": "Roof Moss Removal",
+        "text": "Our roof was covered in moss, and we were worried about potential damage. Mickey's team removed the moss safely and effectively. They also treated the roof to prevent future growth. Excellent service!",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "Linda M.",
+        "rating": 4,
+        "service": "Interior Painting",
+        "text": "Mickey's team painted our living room and dining room. They were professional, courteous, and did a great job. The colors look beautiful, and the walls are smooth and even. Would hire again.",
+        "date": "2025-01-28"
+      },
+      {
+        "name": "Tom B.",
+        "rating": 5,
+        "service": "Fence Repair",
+        "text": "Our fence was leaning and damaged after a storm. Mickey's crew repaired it quickly and efficiently. The fence is now strong and secure. Great work!",
+        "date": "2024-07-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Seattle Handyman | Mickey the Maintenance Man",
+        "description": "Reliable handyman services in Seattle, WA. Expert repairs, maintenance, and home improvements. Call for a free estimate!"
+      },
+      "about": {
+        "title": "About Us | Mickey the Maintenance Man",
+        "description": "Learn about Mickey the Maintenance Man LLC, your trusted handyman in Seattle. Quality workmanship and reliable service."
+      },
+      "services": {
+        "title": "Handyman Services | Mickey the Maintenance Man",
+        "description": "Comprehensive handyman services in Seattle: repairs, maintenance, painting, gutters, roof moss removal, and more. Get a quote today!"
+      },
+      "contact": {
+        "title": "Contact Us | Mickey the Maintenance Man",
+        "description": "Contact Mickey the Maintenance Man LLC for your handyman needs in Seattle, WA. Call or email us for a free estimate!"
+      },
+      "reviews": {
+        "title": "Customer Reviews | Mickey the Maintenance Man",
+        "description": "Read what our satisfied customers in Seattle are saying about Mickey the Maintenance Man LLC. Trusted handyman services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Mickey the Maintenance Man",
+        "description": "Mickey the Maintenance Man LLC provides handyman services in Seattle, Bellevue, Redmond, Kirkland, Tacoma, and Bothell, WA."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "roof-moss-removal": "/images/service-roof-moss-removal.webp",
+      "gutter-cleaning": "/images/service-gutter-cleaning.webp",
+      "dryrot-repair": "/images/service-dryrot-repair.webp",
+      "deck-repair-staining": "/images/service-deck-repair-staining.webp",
+      "interior-painting": "/images/service-interior-painting.webp",
+      "fence-repair": "/images/service-fence-repair.webp",
+      "minor-plumbing-repairs": "/images/service-minor-plumbing-repairs.webp"
+    },
+    "servicesResponsive": {
+      "roof-moss-removal": {
+        "src": "/images/service-roof-moss-removal.webp",
+        "srcset": "/images/service-roof-moss-removal-400w.webp 400w, /images/service-roof-moss-removal-800w.webp 800w, /images/service-roof-moss-removal-1200w.webp 1200w, /images/service-roof-moss-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gutter-cleaning": {
+        "src": "/images/service-gutter-cleaning.webp",
+        "srcset": "/images/service-gutter-cleaning-400w.webp 400w, /images/service-gutter-cleaning-800w.webp 800w, /images/service-gutter-cleaning-1200w.webp 1200w, /images/service-gutter-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dryrot-repair": {
+        "src": "/images/service-dryrot-repair.webp",
+        "srcset": "/images/service-dryrot-repair-400w.webp 400w, /images/service-dryrot-repair-800w.webp 800w, /images/service-dryrot-repair-1200w.webp 1200w, /images/service-dryrot-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-repair-staining": {
+        "src": "/images/service-deck-repair-staining.webp",
+        "srcset": "/images/service-deck-repair-staining-400w.webp 400w, /images/service-deck-repair-staining-800w.webp 800w, /images/service-deck-repair-staining-1200w.webp 1200w, /images/service-deck-repair-staining.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fence-repair": {
+        "src": "/images/service-fence-repair.webp",
+        "srcset": "/images/service-fence-repair-400w.webp 400w, /images/service-fence-repair-800w.webp 800w, /images/service-fence-repair-1200w.webp 1200w, /images/service-fence-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "minor-plumbing-repairs": {
+        "src": "/images/service-minor-plumbing-repairs.webp",
+        "srcset": "/images/service-minor-plumbing-repairs-400w.webp 400w, /images/service-minor-plumbing-repairs-800w.webp 800w, /images/service-minor-plumbing-repairs-1200w.webp 1200w, /images/service-minor-plumbing-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
